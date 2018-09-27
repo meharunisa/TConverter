@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/title_TextView"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/cel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/celBtn"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/far"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/farBtn"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="94dp"
+        android:ems="10"
+        android:hint="@string/hint_Text"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/viewTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" />
+</LinearLayout>

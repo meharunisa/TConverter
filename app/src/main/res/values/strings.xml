@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TConverter</string>
+    <string name="title_TextView">Temprature converter</string>
+    <string name="celBtn">Celsius</string>
+    <string name="farBtn">Farenhite</string>
+    <string name="hint_Text">Enter Temperature</string>
+</resources>
